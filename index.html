@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Juegos</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <!-- menú -->
+    <nav>
+        <ul class="menu">
+            <li><a href="">Inicio</a></li>
+            <li><a href="#info">Información</a></li>
+            <li><a href="#rol">Roles</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="">Contacto</a></li>
+        </ul>
+    </nav>
+    <!-- encabezado hero -->
+    <header class="hero">
+        <div class="hero-texto">
+            <h1>League of Legends</h1>
+            <h2>Juego para ratitas</h2>
+        </div>
+    </header>
+    <!-- información -->
+    <section class="info" id="info">
+        <div class="contenedor">
+            <h1 class="info-titulo">Información Relevante</h1>
+            <p>
+                League of Legends (también conocido por sus siglas LoL) es un videojuego multijugador de arena de
+                batalla en línea desarrollado y publicado por Riot Games. Inspirándose en Defense of the Ancients, un
+                mapa personalizado para Warcraft III, los fundadores de Riot buscaron desarrollar un juego independiente
+                del mismo género. Desde su lanzamiento en octubre de 2009, LoL ha sido un juego gratuito y se monetiza a
+                través de la compra de elementos para la personalización de personajes y otros accesorios. El juego está
+                disponible para Microsoft Windows y macOS.
+            </p>
+        </div>
+    </section>
+    <!-- roles -->
+    <section class="contenedor" id="rol">
+        <h2 class="titulo">Roles</h2>
+        <div class="contenedor-cards">
+            <article class="card">
+                <div class="margen-icon">
+                    <i class="bi bi-airplane-fill"></i>
+                </div>
+                <h3>MID</h3>
+                <p>Mid es el carril del centro</p>
+                <a href="" class="boton">Leer más</a>
+            </article>
+            <article class="card">
+                <div class="margen-icon">
+                    <i class="bi bi-car-front-fill"></i>
+                </div>
+                <h3>TOP</h3>
+                <p>Top es el carril superior</p>
+                <a href="" class="boton">Leer más</a>
+            </article>
+            <article class="card">
+                <div class="margen-icon">
+                    <i class="bi bi-cart-fill"></i>
+                </div>
+                <h3>BOT</h3>
+                <p>Bot es el inferior </p>
+                <a href="" class="boton">Leer más</a>
+            </article>
+        </div>
+    </section>
+    <!-- galería -->
+    <section class="galeria" id="galeria">
+        <div class="contenedor">
+            <h2 class="titulo">Imagenes</h2>
+            <div class="galeria-contenedor">
+                <img src="img/img1.jpg" alt="">
+                <img src="img/img2.jpg" alt="">
+                <img src="img/img3.jpg" alt="">
+                <img src="img/img4.jpg" alt="">
+                <img src="img/img5.jpg" alt="">
+                <img src="img/img6.jpg" alt="">
+                <img src="img/img7.jpg" alt="">
+                <img src="img/img8.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="contacto">
+        <div  class="contenedor">
+            <h2 class="formulario" >formulario contacto</h2>
+            <form class="contacto">
+                <input type="text" name="nombre" id="nombre" class="input" placeholder="ingresa tu nombre">
+                <input type="text" name="email" id="email" class="input" placeholder="ingresa tu email">
+                <textarea name="msj" id="msj" cols="30" rows="10" class="input" placeholder="ingresa tu mensaje"></textarea>
+                <input type="reset" value="limpiar" class="boton">
+                <input type="submit" name="enviar" class="boton">
+            </form>
+        </div>
+        <!-- crear formulario de contacto, debe tener nombre, email
+        textarea para mensaje, y dos botones limpiar y enviar.Añadir estilos -->
+    </section>
+    <!-- pie de página -->
+    <footer>
+        <!-- crear pie de página donde añada sus datos personales, 
+        nombre, fono, emial, dirección. Añadir al lado de cada 1 un icono
+        y luego dar estilos -->
+    </footer>
+</body>
+
+</html>
